@@ -1,0 +1,4 @@
+---
+slug: freedom
+name: Freedom
+---

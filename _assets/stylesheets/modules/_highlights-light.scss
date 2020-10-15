@@ -3,6 +3,8 @@
 // =============================================================================
 
 .highlight {
+  text-align: left;
+  direction: ltr;
   padding: 25px;
   margin: 0;
   margin: 30px 0;
@@ -13,6 +15,7 @@
   pre {
     margin: 0;
   }
+  
 }
 
 // Inline highlighting

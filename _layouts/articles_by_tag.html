@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if site.tags[page.slug] %}
-  <ul class="article-list">
+  <ul class="article-list" id="align-right">
     {% for post in site.tags[page.slug] %}
       <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
         <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
